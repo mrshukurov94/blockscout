@@ -151,7 +151,7 @@ defmodule Explorer.MicroserviceInterfaces.Metadata do
     "#{base_url()}/addresses"
   end
 
-  def tags_search_url do
+  defp tags_search_url do
     "#{base_url()}/tags%3Asearch"
   end
 
